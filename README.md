@@ -5,7 +5,7 @@ This is the project template which contains Angular front-end and Spring Boot ba
 
 ## Setting up Spring Boot application.
 
-1. Make sure you have installed Java. For development OpenJDK 11 from [AdoptOpenJDK](https://adoptopenjdk.net/) should be used.
+1. Make sure you have installed Java. For development OpenJDK 11 from [Adoptium](https://adoptium.net/) should be used.
 2. Install Intellij IDEA Commmunity edition
 3. Import the Maven project
 4. Run the LibraryApplication from IDE.
@@ -19,7 +19,7 @@ your Java 11 installation in that case)
 
 To get Angular app up and running you need to:
 
-1. Make sure you have [NodeJS](https://nodejs.org/en/download/) version 10+ installed.
+1. Make sure you have [NodeJS](https://nodejs.org/en/download/) version 18+ installed.
 2. Open the terminal.
 3. Navigate to frontend project `cd frontend/`
 4. Install all dependencies with npm `npm install`. NB: This might take a while.
@@ -36,7 +36,7 @@ To get Angular app up and running you need to:
 
 * Tasks don't have to be completed in order.
 * Try to complete as many as possible. 
-* You are free to modify both front-end and back-end as you deem necessary.
+* You are free to modify both front-end and back-end as you deem necessary. This includes the option to use another front-end framework if you wish.
 * Regarding UI design, you are also free to choose: use Material Design components, your favorite library or implement everything yourself.
 * You can and are encouraged to also implement additional cool features that you think would
 really help showcase and distinguish your skills.
@@ -70,4 +70,5 @@ If you have any questions, please reach out without hesitation. Best of luck!
 * Add support for multiple users and different user roles: reader and librarian.
 Reader should not be able to add / modify / delete existing book information or tamper with checkouts
 but should be able to save favorites and check out / return books (that they have checked out)
+* Containerize your application to make it cloud-native
 
